@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>RockPaperScissors</title>
+	<link rel="stylesheet" href="assets/reset.css">
+	<!-- Compressed Foundation CSS -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.3/css/foundation.min.css" integrity="sha256-itWEYdFWzZPBG78bJOOiQIn06QCgN/F0wMDcC4nOhxY=" crossorigin="anonymous" />
+	<link rel="stylesheet" href="assets/app.css">
+</head>
+<body>
+	<!-- Title Section -->
+	<header>
+		<h1>Rock Paper Scissors Game</h1>
+		<h3>Try to beat our computer!</h3>
+	</header>
+
+	<!-- Game Rules -->
+	<section>
+		<h4>Here are the game rules:</h4>
+		<ul>
+			<li>Rock beats Scissors</li>
+			<li>Scissors beats Paper</li>
+			<li>Paper beats Rock</li>
+		</ul>
+
+		<h4>How to play:</h4>
+		<p>Pick rock, paper or scissors by pressing R, P, or S respectively.</p>
+	</section>
+
+	<!-- Play Scores -->
+	<section>
+		<h4>Player Wins: <span id="wins"></span></h4>
+
+		<h4>Player Draws: <span id="draws"></span></h4>
+
+		<h4>Player Loses: <span id="loses"></span></h4>
+	</section>
+
+	<!-- Game Section -->
+	<section>
+		<h4>Match Results: <span id="matchResults"></span></h4>
+
+		<h4>You have selected: <span id="playerChoice"></span></h4>
+ 
+		<h4>Computer has selected: <span id="computer"></span></h4>
+	</section>
+
+	<!-- Compressed Foundation JavaScript -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.3/js/foundation.min.js" integrity="sha256-Nd2xznOkrE9HkrAMi4xWy/hXkQraXioBg9iYsBrcFrs=" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="assets/app.js"></script>
+</body>
+</html>
